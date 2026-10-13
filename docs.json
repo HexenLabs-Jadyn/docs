@@ -1,0 +1,135 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Fleet Empire Staff",
+  "colors": {
+    "primary": "#2563EB",
+    "light": "#93C5FD",
+    "dark": "#1D4ED8"
+  },
+  "favicon": {
+    "light": "https://fleetempire.hxl.au/images/branding/robloxLogo.webp",
+    "dark": "https://fleetempire.hxl.au/images/branding/robloxLogo.webp"
+  },
+  "navigation": {
+    "pages": [
+      {
+        "group": "Start here",
+        "pages": [
+          "index",
+          "quickstart"
+        ],
+        "icon": "book-open"
+      },
+      {
+        "group": "Player support",
+        "icon": "comments",
+        "pages": [
+          "support/helpers"
+        ]
+      },
+      {
+        "group": "Moderation",
+        "icon": "shield-halved",
+        "pages": [
+          "moderation/fleetmod",
+          "moderation/approvals",
+          "moderation/punishments"
+        ]
+      },
+      {
+        "group": "Your role",
+        "icon": "users",
+        "pages": [
+          "staff/roles",
+          "staff/training"
+        ]
+      }
+    ]
+  },
+  "logo": {
+    "light": "https://fleetempire.hxl.au/images/branding/robloxLogoWithDarkText.png",
+    "dark": "https://fleetempire.hxl.au/images/branding/robloxLogoWithLightText.png"
+  },
+  "navbar": {
+    "links": [
+      {
+        "href": "https://fleetempire.hxl.au/docs",
+        "label": "Player guides"
+      }
+    ],
+    "primary": {
+      "type": "discord",
+      "href": "https://discord.gg/xtvqCYBDYp"
+    }
+  },
+  "contextual": {
+    "options": [
+      "copy"
+    ]
+  },
+  "footer": {
+    "links": [
+      {
+        "header": "Fleet Empire",
+        "items": [
+          {
+            "label": "Player guides",
+            "href": "https://fleetempire.hxl.au/docs"
+          },
+          {
+            "label": "Discord",
+            "href": "https://discord.gg/xtvqCYBDYp"
+          }
+        ]
+      },
+      {
+        "header": "Staff handbook",
+        "items": [
+          {
+            "label": "Punishment guidelines",
+            "href": "/moderation/punishments"
+          },
+          {
+            "label": "FleetMod logging",
+            "href": "/moderation/fleetmod"
+          },
+          {
+            "label": "Approvals and escalation",
+            "href": "/moderation/approvals"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "Fleet Empire staff handbook: helper duties, moderation, punishment guidelines, logging and progression.",
+  "appearance": {
+    "default": "dark"
+  },
+  "background": {
+    "color": {
+      "light": "#F7F8FA",
+      "dark": "#111113"
+    }
+  },
+  "search": {
+    "prompt": "Search staff handbook..."
+  },
+  "fonts": {
+    "family": "Inter"
+  },
+  "styling": {
+    "eyebrows": "section",
+    "codeblocks": "system"
+  },
+  "errors": {
+    "404": {
+      "redirect": false,
+      "title": "Looks like we took a wrong turn",
+      "description": "This handbook page fell off the truck. Head back to the staff overview."
+    }
+  },
+  "interaction": {
+    "drilldown": true
+  }
+}
